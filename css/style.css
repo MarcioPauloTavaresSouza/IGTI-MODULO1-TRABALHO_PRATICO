@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label-item {
+  flex: 1;
+}
+
+#labelR {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+#labelG {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+#labelB {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.range-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-item {
+  flex: 1;
+  text-align: center;
+}
+
+#resultRGB {
+  height: 200px;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-radius: 5px;
+}
